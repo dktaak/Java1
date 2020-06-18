@@ -3,8 +3,10 @@ package test;
 public class test {
 
 	public static void main(String[] args) {
-		System.out.println("this is my 1st test git project");
-		System.out.println("again");
+		boolean x=true;
+		boolean y=false;
+		System.out.println(x && y);
+		System.out.println(x || y);
 	}
 
 }
