@@ -9,13 +9,14 @@ public class test {
 		System.out.println(x && y);
 		System.out.println(x || y);
 	*/
-		int a[]=new int[5];
-		a[0]=10;
-		a[1]=10;
-		a[2]=10;
-		a[3]=10;
-		a[4]=10;
-		for(int i:a)
+		
+		Object a[]=new Object[5];
+		a[0]= 10.25;
+		a[1]="bhbhbh";
+		a[2]='m';
+		a[3]=false;
+		a[4]=true;
+		for(Object i:a)
 		{		
 			System.out.println(i);
 		}
