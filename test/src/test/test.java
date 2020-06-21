@@ -56,7 +56,7 @@ public class test {
 		for(int i[]:a)
 		{		for(int j:i)
 		{
-			System.out.print(j+"  ");
+			System.out.print(j+"gello  ");
 		}
 		}
 	}
